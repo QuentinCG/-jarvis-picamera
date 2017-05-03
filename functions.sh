@@ -39,7 +39,7 @@ jv_pg_pc_take_video()
   local result=`python3 $dir/script/take_video.py --path $1 --duration $2`
 
   # Show the result to user (if requested)
-  if [[ $result =~ "Take picture: True" ]]; then
+  if [[ $result =~ "Take video: True" ]]; then
     if [[ ! $1 =~ "True" ]]; then
       say "$(jv_pg_pc_lang take_video_success)"
     fi

@@ -1,8 +1,8 @@
 ## Description
-Take a picture or a video with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using the PiCamera (camera usable only with Raspberry Pi).
+Take a picture or a video with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using a PiCamera (camera usable only with Raspberry Pi).
 
 
-<img src="https://raw.githubusercontent.com/QuentinCG/jarvis-picamera/master/presentation.jpg">
+<img src="https://raw.githubusercontent.com/QuentinCG/jarvis-picamera/master/presentation.jpg" width="500">
 
 
 ## Usage

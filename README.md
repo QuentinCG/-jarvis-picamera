@@ -16,10 +16,10 @@ You: Prends une photo de test discretement
 
 You: Prends une vidéo de test
 Jarvis: Vidéo prise.
-[Vidéo sauvegardée dans /tmp/video_test.mp4 comme définit dans le fichier command]
+[Vidéo sauvegardée dans /tmp/video_test.h264 comme définit dans le fichier command]
 
 You: Prends une vidéo de test discrètement
-[Vidéo sauvegardée dans /tmp/video_test.mp4 comme définit dans le fichier command]
+[Vidéo sauvegardée dans /tmp/video_test.h264 comme définit dans le fichier command]
 
 You: Prends une vidéo et envoie la par mail
 [Vidéo envoyée par mail grace au plugin [Email Sender](https://github.com/QuentinCG/jarvis-email-sender)]

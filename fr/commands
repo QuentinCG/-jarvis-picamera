@@ -1,0 +1,9 @@
+*PHOTO*ENVOI*MAIL*==jv_pg_pc_take_picture /tmp/photo_test.jpg True && jv_pg_es_send_email "$var_jv_pg_es_receivers_example" "Photo prise depuis Jarvis" "Ceci est un mail contenant une photo prise par Jarvis" "[\"/tmp/photo_test.jpg\"]" True
+*VIDEO*ENVOI*MAIL*==jv_pg_pc_take_video /tmp/video_test.h264 2 True && jv_pg_es_send_email "$var_jv_pg_es_receivers_example" "Vidéo prise depuis Jarvis" "Ceci est un mail contenant une vidéo prise par Jarvis" "[\"/tmp/video_test.h264\"]" True
+
+*PHOTO*ENVOI*FACEBOOK*==jv_pg_pc_take_picture /tmp/photo_test.jpg True && jv_pg_fb_send_message "$var_jv_pg_fb_main_receiver_id" "$var_jv_pg_fb_main_receiver_name" "Ceci est un message facebook contenant une photo prise par Jarvis" "/tmp/photo_test.jpg" True
+
+*PHOTO*DISCRET*==jv_pg_pc_take_picture /tmp/photo_test.jpg True
+*PREND*PHOTO*==jv_pg_pc_take_picture /tmp/photo_test.jpg
+*VIDEO*DISCRET*==jv_pg_pc_take_video /tmp/video_test.h264 2 True
+*PREND*VIDEO*==jv_pg_pc_take_video /tmp/video_test.h264 2

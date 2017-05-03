@@ -13,7 +13,9 @@ __version__ = "1.0 (2017/05/03)"
 __status__ = "Usable for any project"
 __dependency__ = "PiCamera (use 'sudo apt-get install python-picamera' or 'sudo apt-get install python3-picamera' to install package)"
 
-from picamera import PiCamera
+from picamera import PiCamera # Take picture/video
+import argparse # Manage program arguments
+import sys # Use exit calls
 
 if __name__ == "__main__":
   # Parse received parameters

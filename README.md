@@ -1,5 +1,5 @@
 ## Description
-Take a picture or a video with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using a PiCamera (camera usable only with Raspberry Pi).
+Take a picture or a video with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using a <a target="_blank" href="https://www.raspberrypi.org/products/camera-module/">Pi Camera (camera usable only with Raspberry Pi)</a>.
 
 
 <img src="https://raw.githubusercontent.com/QuentinCG/jarvis-picamera/master/presentation.jpg" width="500">
@@ -34,11 +34,11 @@ You: Prends une photo et envoie la par facebook
 
 ## How to install
 
-1) Connect your PiCamera to your Raspberry Pi where <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> is installed
+1) Connect your <a target="_blank" href="https://www.raspberrypi.org/products/camera-module/">Pi Camera</a> to your Raspberry Pi where <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> is installed
 
 2) Add this plugin to your <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-picamera```
 
-3) Reboot your Raspberry Pi: The PiCamera will be enabled only after a reboot (`sudo reboot`)
+3) Reboot your Raspberry Pi: The <a target="_blank" href="https://www.raspberrypi.org/products/camera-module/">Pi Camera</a> will be enabled only after a reboot (`sudo reboot`)
 
 4) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-email-sender">Email Sender plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> if you want to send your picture or video by email.
 
